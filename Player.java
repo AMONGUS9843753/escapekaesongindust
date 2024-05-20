@@ -123,15 +123,25 @@ public class Player extends Human{
 				transport(0);
 			} else if(myRoom.getID()==3){
 				transport(1);
+			} else{
+				transport(2);
 			}
 		} else if(option==2){
-
+			if(myRoom.getID()==2){
+				
+			}
 		} else if(option==3){
-
+			if(myRoom.getID()==2){
+				
+			}
 		} else if(option==4){
-
+			if(myRoom.getID()==2){
+				
+			}
 		} else if(option==5){
-
+			if(myRoom.getID()==2){
+				
+			}
 		} else {
 			System.out.println("Invalid Input. Try again");
 		}
