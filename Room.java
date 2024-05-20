@@ -37,14 +37,14 @@ public class Room {
 	}
 	public String toString() {
 		if(roomID==0) 
-			return "PLACES TO GO: Factory, FamilyMart \nACTIVITIES TO DO: Squid Game, sleep";
+			return "PLACES TO GO: Factory[1], FamilyMart[2] \nACTIVITIES TO DO: Squid Game [3], Sleep [4]";
 		if(roomID==1)
-			return "PLACES TO GO: Home, Panmun \nACTIVITIES TO DO: Buy, Rob, Kill Storeowner";
+			return "PLACES TO GO: Home[1], Panmun[2] \nACTIVITIES TO DO: Buy[3], Rob[4], Kill Storeowner[5]";
 		if(roomID==2) {
-			return "PLACES TO GO: Home, FamilyMart \nACTIVITIES TO DO: Work, Skip Work";
+			return "PLACES TO GO: Home[1], FamilyMart[2] \nACTIVITIES TO DO: Work[3], Skip Work[4]";
 		}
 		if(roomID==3) {
-			return "PLACES TO GO: FamilyMart \nACTIVITIES TO DO: tbd";
+			return "PLACES TO GO: FamilyMart[1] \nACTIVITIES TO DO: tbd";
 		}
 		else {
 			return "There appears to be a bug! Contact the developers (Nikhil, Arun, or Kudzi) and have them fix this!";

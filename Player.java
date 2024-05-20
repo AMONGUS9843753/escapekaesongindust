@@ -116,6 +116,26 @@ public class Player extends Human{
 	public void toDo() {
 		System.out.println(super.getName()+ " has " +money+" won and "+health+" HP");
 		System.out.println("Inventory "+ inv.toString());
+		System.out.println(myRoom.toString());
+		int option=sc.nextInt();
+		if(option==1){
+			if(myRoom.getID==1||myRoom.getID()==2){
+				transport(0);
+			} else if(myRoom.getID()==3){
+				transport(1);
+			}
+		} else if(option==2){
+
+		} else if(option==3){
+
+		} else if(option==4){
+
+		} else if(option==5){
+
+		} else {
+			System.out.println("Invalid Input. Try again");
+		}
+
 		
 	}
 }
